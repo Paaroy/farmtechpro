@@ -1,10 +1,10 @@
 {
-  "name": "frontend",
+  "name": "farmtech",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build --no-lint",
     "start": "next start",
     "lint": "next lint"
   },
@@ -19,13 +19,12 @@
     "clsx": "^2.1.1",
     "framer-motion": "^11.11.10",
     "lucide-react": "^0.454.0",
-    "next": "^14.2.23",
+    "next": "14.2.16",
     "react": "^18",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18",
     "react-ion-icon": "^4.0.0",
-    "react-ionicons": "^1.5.7",
-    "react-responsive": "^10.0.0",
+    "react-ionicons": "^4.2.1",
     "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7"
   },
